@@ -1,0 +1,30 @@
+.footer{
+    overflow: hidden;
+    background-color: rgb(34, 33, 33);
+    position: sticky;
+    top: 100%;
+    padding: 20px 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 18px;
+}
+
+a:hover{
+    color: beige;
+}
+
+i{
+    padding: 10px 5px;
+}
+
+.fundofooter {
+    background-color: rgb(187, 0, 0);
+}
+
+* {
+    font-family: Impact;
+}

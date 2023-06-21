@@ -1,0 +1,28 @@
+{
+  "emul": [
+    {
+      "nome": "Bluestacks",
+      "descricao": "BlueStacks App Player foi produzido para permitir que aplicativos Android rodem em computadores Windows e Macintosh.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQULdjg3DCDGhDLfiYd_00aw_vIarvKXoE7aQ&usqp=CAU",
+      "id": 1
+    },
+    {
+      "nome": "Cemu",
+      "img": "../../assets/Cemu.jpg",
+      "descricao": "O CEMU é um emulador de código aberto e experimental desenvolvido principalmente para emular jogos do console Wii U da Nintendo no ambiente de PC.",
+      "id": 2
+    },
+    {
+      "descricao": "é um software projetado para replicar o hardware e o sistema operacional do console PlayStation original da Sony em um ambiente de computador. ",
+      "img": "../../assets/ps1.png",
+      "nome": "PSX",
+      "id": 3
+    },
+    {
+      "descricao": "é um dos emuladores mais populares e bem-sucedidos para jogos de PlayStation 2. Ele permite que os jogadores executem jogos de PS2 em seus computadores, oferecendo uma alternativa conveniente para jogar os clássicos do PS2 sem a necessidade do console original.",
+      "nome": "PCSX2",
+      "img": "../../assets/ps2.jpg",
+      "id": 4
+    }
+  ]
+}

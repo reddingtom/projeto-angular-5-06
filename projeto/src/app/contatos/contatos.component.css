@@ -1,0 +1,22 @@
+h1{
+    margin-bottom: 30px;
+    color: white;
+    font-family: serif;
+    font-size: 52px;
+}
+
+label{
+    color: white;
+}
+
+select{
+    margin-bottom: 50px;
+}
+
+button{
+    margin-bottom: 50px;
+}
+
+.all {
+    padding: 5% 15%;
+}

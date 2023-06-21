@@ -1,0 +1,31 @@
+<div class="banner">
+
+</div>
+
+<div class="content">
+    <p id="faixatext">Bem-vindos a uma emocionante Emulator's World, o seu destino definitivo para explorar o universo dos emuladores!</p>
+</div>
+
+<div class="conteudo">
+    <div class="conteudotext">
+        <p>Os emuladores, criaturas mágicas do mundo digital, possuem um poder incomparável. Eles transcendem as barreiras do tempo e do espaço, permitindo-nos reviver memórias perdidas, ressuscitar as relíquias de eras passadas e explorar mundos que pareciam perdidos para sempre.</p>
+        <p>Quando um emulador é invocado, os velhos tempos ganham vida mais uma vez. A tela brilhante se enche de cores vibrantes, os sons nostálgicos ecoam pelos alto-falantes e a magia começa a acontecer. De repente, estamos de volta à infância, mergulhados em um mundo de pixels e aventuras emocionantes.</p>
+        <p>Então, mergulhe nesse universo encantado dos emuladores. Desbrave novos mundos, resgate personagens queridos e reacenda a chama da nostalgia. Deixe-se envolver pelo poder mágico dessas incríveis criações digitais, onde a paixão pelos jogos se entrelaça com a tecnologia para criar experiências que transcenderão o tempo. Os emuladores são o elo entre o passado e o presente, e é através deles que nossas lembranças se tornam imortais.</p>
+    </div>
+</div>
+
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Emuladores mais usados</h1>
+    <div class="row">
+        <div class="col-lg-3" *ngFor="let x of listar">
+            <div class="varbox">
+                <img src="{{ x.img }}">
+                <div class="cardconteudo">
+                    <h1>{{ x.nome }}</h1>
+                    <p id="carddescricao">{{x.descricao}}</p>
+                    <p id="cardsobre"><a routerLink="produto/{{x.id}}">Saiba mais</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

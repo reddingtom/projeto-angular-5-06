@@ -1,0 +1,33 @@
+.conteiner {
+    padding: 10%;
+}
+
+.conteudo {
+    background-color: rgb(194, 194, 194);;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.produtoimg {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.conteudoproduto {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+
+.all {
+    padding: 10%;
+    background-image: url(https://64.media.tumblr.com/452531077d3a04fd4da40a8877e16290/056124ae12539ea1-0e/s2560x500/487550bfcec4c3c8370ccf1c3da13c6921970c0f.jpg);
+}
+

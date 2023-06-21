@@ -1,0 +1,17 @@
+i{
+    color: white;
+}
+
+a{
+    font-family: Impact;
+}
+
+.corfundomenu {
+    background-color: rgb(187, 0, 0);
+    box-shadow: 0px 8px 16px 0px #00000024;
+}
+
+.rolagem {
+    position: sticky;
+    top: 0%;
+}

@@ -1,0 +1,18 @@
+<div class="all">
+  <div class="conteudo">
+    <h2>Detalhes do Produto</h2>
+    
+    <div *ngIf="produto" class="produto-details">
+      <h3>{{ produto.nome }}</h3>
+      <img src="{{ produto.img }}" alt="">
+      <p>ID: {{ produto.id }}</p>
+      <p>Descrição: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis magnam laboriosam veritatis voluptates deserunt? Nisi, aperiam nam architecto placeat eveniet neque magnam fuga totam id eum tempora laudantium alias quam.</p>
+    
+      <!-- Adicione outras propriedades que você deseja exibir -->
+    </div>
+    
+    <div *ngIf="!produto">
+      <p>Produto não encontrado</p>
+    </div>
+  </div>
+</div>

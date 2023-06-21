@@ -1,0 +1,30 @@
+<h1>Lista de produtos</h1>
+
+<table>
+    <tr>
+      <th>ID</th>
+      <th>Nome</th>
+      <th>descrição</th>
+      
+    </tr>
+    <tr *ngFor="let x of listar">
+      <th>{{ x.id }}</th>
+      <th>{{ x.nome }}</th>
+      <th>{{ x.descricao }}</th>
+      <td>
+        <button (click)="Atualizar(x.id)">Atualizar</button>
+        <button (click)="Excluir(x.id)">Excluir</button>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h2>Adicionar</h2>
+
+  <form>
+    <p>Nome: <input type="text" name="name" [(ngModel)]="model.nome" /></p>
+    <p>descrição: <input type="text" name="age" [(ngModel)]="model.descricao" /></p>
+    <p>img: <input type="text" name="age" [(ngModel)]="model.img" /></p>
+    <button type="button" (click)="Cadastrar()">Cadastrar</button>
+  </form>
